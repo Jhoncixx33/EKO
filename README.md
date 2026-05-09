@@ -22,3 +22,84 @@ Eko convierte cada acto de reciclaje en un **crédito digital verificable (cNFT)
 ---
 
 ## 🧠 Arquitectura Técnica
+[Móvil] → (cámara + TensorFlow.js) → Clasifica material
+↓
+[ZK Proof simulada] → Hash del material + compromiso
+↓
+[Mobile Wallet Adapter] → Firma transacción
+↓
+[Anchor Program] → CPI a Metaplex Bubblegum → Mintea cNFT
+↓
+[Token-2022 TransferFee] → Pago automático al reciclador
+
+text
+
+---
+
+## 🔧 Stack Tecnológico
+
+| Capa | Tecnología |
+|------|-----------| 
+| **Blockchain** | Solana (Devnet) |
+| **Smart Contract** | Anchor (Rust) |
+| **NFTs** | Metaplex Bubblegum (cNFTs con State Compression) |
+| **Frontend** | Next.js (PWA) + React |
+| **IA** | TensorFlow.js (clasificación de residuos) |
+| **Billetera** | Mobile Wallet Adapter (Phantom, Backpack) |
+| **Privacidad** | Zero-Knowledge Proofs (simuladas en MVP) |
+
+---
+
+## 📁 Estructura del Proyecto
+EKO/
+├── programs/eko-credit/ # Smart Contract Anchor (Rust)
+│ ├── src/lib.rs # Instrucción mint_credit
+│ └── Cargo.toml # Dependencias (Bubblegum, SPL Compression)
+├── components/
+│ └── Scanner.tsx # Componente de cámara y captura
+├── hooks/
+│ └── useMobileWallet.ts # Integración Mobile Wallet Adapter
+├── utils/
+│ ├── classifier.ts # Modelo IA con TensorFlow.js
+│ └── eko-program.ts # Cliente Anchor para el frontend
+└── README.md
+
+text
+
+---
+
+## 🚀 Demo en Vivo
+
+![Demo](screenshots/demo.gif)
+
+---
+
+## 🏆 ¿Por Qué Eko Gana?
+
+1. **Impacto social real:** Empodera a recicladores informales.
+2. **Economía circular programable:** Token Extensions con TransferFee.
+3. **Privacidad desde el diseño:** ZK Proofs.
+4. **Escalabilidad masiva:** cNFTs — 1 millón de créditos < $10 en fees.
+5. **Nacido en Bolivia, con visión global.**
+
+---
+
+## 👥 Equipo
+
+**Shadow Garden** — Construyendo desde las sombras la luz de la economía circular.
+
+---
+
+## 📄 Licencia
+
+MIT
+✅ Prioridad #2: Generar Screenshots y Logo (15 min)
+Screenshot 1: Tomen una captura del Scanner.tsx abierto en VS Code mostrando el flujo de captura.
+
+Screenshot 2: Tomen una captura del lib.rs mostrando la instrucción mint_credit.
+
+Screenshot 3: Si logran ejecutar algo localmente, tomen captura de la consola o del navegador con un mensaje de éxito.
+
+
+
+
