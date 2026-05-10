@@ -55,20 +55,6 @@ Cada año, **2.000 millones de toneladas de residuos** terminan en vertederos o 
 
 ---
 
-## 🏗️ Stack y Arquitectura
-
-Consulta [ARCHITECTURE.md](./docs/ARCHITECTURE.md) para el detalle de decisiones de diseño.
-Consulta [CONTRIBUTING.md](./docs/CONTRIBUTING.md) para guías de contribución.
-
----
-## 📽️ Demo en vivo
-
-🔗 [Prueba la aplicación aquí](https://eko-demo.vercel.app) *(enlace de Vercel, actualiza con tu despliegue)*
-
-📱 [Video de demostración en YouTube](https://youtu.be/tu_video_id) *(cambia por el video real de la app funcionando)*
-
----
-
 ## 🧠 ¿Por qué EKO es único?
 
 - **ZK Proofs simuladas** para privacidad del reciclador (prueba real en la hoja de ruta).  
@@ -96,22 +82,7 @@ Token-2022 transfiere recompensa automática al reciclador.
 
 ---
 
-## 📸 Capturas de pantalla
 
-| Inicio | Escaneo de residuo | Crédito minteado |
-|--------|-------------------|------------------|
-| ![Home](public/screenshots/home.png) | ![Scanner](public/screenshots/scanner.png) | ![Mint](public/screenshots/mint.png) |
-
-*(Crea estas imágenes y súbelas a `public/screenshots/`)*
-
----
-
-## 🚀 Instalación rápida (para probar local)
-
-1. Clona el repo:
-   ```bash
-   git clone https://github.com/Jhoncixx33/EKO.git
-   cd EKO
 
 
 
