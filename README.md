@@ -1,14 +1,65 @@
-# ♻️ EKO – Transforma residuos en créditos digitales verificables
+# ♻️ EKO — Reciclar Verifica, la Blockchain Recompensa
 
-![EKO Banner](https://via.placeholder.com/1200x400/22c55e/ffffff?text=EKO+-+Reciclar+para+ganar)  
+<p align="center">
+  <img src="/public/banner-eko.png" alt="EKO Banner - Del residuo al crédito de carbono verificable" width="100%" />
+</p>
 
-**EKO** convierte cada acto de reciclaje en un **crédito digital verificable (cNFT)** usando inteligencia artificial y blockchain de Solana. Empresas compran estos créditos ESG con total trazabilidad, y los recicladores reciben pagos directos sin intermediarios.
-
-🌍 **Problema real**: 350 millones de toneladas de plástico al año, <9% se recicla. 20 millones de recicladores informales sin acceso a banca.  
-⚡ **Solución**: Escanea tu residuo con el móvil, una IA lo clasifica, se mintea un cNFT comprimido como prueba y el reciclador recibe criptoactivos al instante.
+<h3 align="center">
+  Transformamos cada botella reciclada en un <strong>crédito digital verificable</strong>.<br/>
+  Sin intermediarios. Sin greenwashing. Solo impacto real.
+</h3>
 
 ---
 
+## 🌍 El Problema
+
+Cada año, **2.000 millones de toneladas de residuos** terminan en vertederos o ecosistemas. El reciclaje informal es responsable del **60% del reciclaje global**, pero estos trabajadores carecen de:
+
+- ❌ **Reconocimiento económico formal** (sin cuenta bancaria, sin historial crediticio)
+- ❌ **Verificación confiable** para que las empresas compren créditos de reciclaje sin miedo al *greenwashing*
+- ❌ **Acceso a tecnología** que funcione sin conexión en zonas marginadas
+
+> **Problema real:** Las empresas ESG quieren compensar su huella, pero los sistemas de auditoría actuales son caros, lentos y fácilmente manipulables.
+
+---
+
+## ✅ Nuestra Solución
+
+**EKO** convierte el acto de reciclar en un **cNFT (NFT comprimido)** sobre Solana, respaldado por inteligencia artificial que clasifica el residuo directamente en el teléfono del reciclador.
+
+| Sin EKO | Con EKO |
+|---------|---------|
+| 🗑️ Reciclador no recibe pago justo por kilo | 💰 Pago directo en stablecoins vía Token-2022 |
+| 📄 Auditoría manual de toneladas recicladas | 🔐 cNFT inmutable y verificable on-chain |
+| ☁️ Dependencia de servidores y conexión 4G | 📱 IA en el navegador (funciona offline) |
+| ❓ ¿El plástico realmente se recicló? | ✅ Prueba ZK simulada que garantiza la veracidad |
+
+---
+
+## 🧪 ¿Cómo funciona en 3 pasos?
+
+1. **📸 Escanea** — Apuntas la cámara a una botella o envase.
+2. **🤖 Clasifica** — La IA (TensorFlow.js) identifica el material: PET, vidrio, aluminio.
+3. **⛓️ Verifica** — Se mintea un cNFT en Solana y el reciclador recibe su pago automático.
+
+---
+
+## 📈 Impacto Potencial (Proyección)
+
+> Basado en una red piloto de 500 recicladores en Santa Cruz, Bolivia.
+
+- ♻️ **15 toneladas/mes** de residuos trazados
+- 💸 **Ingreso extra de $80/mes** por reciclador (30% sobre su ingreso actual)
+- 🌳 **120 toneladas de CO₂ eq.** compensadas anualmente
+
+---
+
+## 🏗️ Stack y Arquitectura
+
+Consulta [ARCHITECTURE.md](./docs/ARCHITECTURE.md) para el detalle de decisiones de diseño.
+Consulta [CONTRIBUTING.md](./docs/CONTRIBUTING.md) para guías de contribución.
+
+---
 ## 📽️ Demo en vivo
 
 🔗 [Prueba la aplicación aquí](https://eko-demo.vercel.app) *(enlace de Vercel, actualiza con tu despliegue)*
