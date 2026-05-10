@@ -1,7 +1,6 @@
 # ♻️ EKO – Transforma residuos en créditos digitales verificables
 
 ![EKO Banner](https://via.placeholder.com/1200x400/22c55e/ffffff?text=EKO+-+Reciclar+para+ganar)  
-*(Reemplaza esta imagen por una real de la app)*
 
 **EKO** convierte cada acto de reciclaje en un **crédito digital verificable (cNFT)** usando inteligencia artificial y blockchain de Solana. Empresas compran estos créditos ESG con total trazabilidad, y los recicladores reciben pagos directos sin intermediarios.
 
@@ -29,7 +28,38 @@
 ---
 
 ## 🏗️ Arquitectura Técnica
+[Usuario móvil] → cámara + TensorFlow.js (clasificación) →
+Prueba de reciclaje → ZK Proof simulada →
+Mobile Wallet Adapter firma transacción →
+Anchor Program (Rust) mintea cNFT (Bubblegum) →
+Token-2022 transfiere recompensa automática al reciclador.
 
+**Stack:**  
+- Blockchain: Solana (devnet)  
+- Smart contracts: Anchor (Rust)  
+- NFTs: Metaplex Bubblegum (cNFT)  
+- Frontend: Next.js PWA + React  
+- IA en navegador: TensorFlow.js  
+- Wallet: Phantom / Backpack (Mobile Wallet Adapter)
+
+---
+
+## 📸 Capturas de pantalla
+
+| Inicio | Escaneo de residuo | Crédito minteado |
+|--------|-------------------|------------------|
+| ![Home](public/screenshots/home.png) | ![Scanner](public/screenshots/scanner.png) | ![Mint](public/screenshots/mint.png) |
+
+*(Crea estas imágenes y súbelas a `public/screenshots/`)*
+
+---
+
+## 🚀 Instalación rápida (para probar local)
+
+1. Clona el repo:
+   ```bash
+   git clone https://github.com/Jhoncixx33/EKO.git
+   cd EKO
 
 
 
