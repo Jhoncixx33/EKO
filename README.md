@@ -1,7 +1,8 @@
 # ♻️ EKO — Reciclar Verifica, la Blockchain Recompensa
+(https://i.postimg.cc/T1y00QbM/LOGO-EKO.png)
 
 <p align="center">
-  <img src="/public/banner-eko.png" alt="EKO Banner - Del residuo al crédito de carbono verificable" width="100%" />
+  <img src="/public/banner-eko.png" alt="https://i.postimg.cc/kgPsNQgr/Banner-EKO.png" width="100%" />
 </p>
 
 <h3 align="center">
