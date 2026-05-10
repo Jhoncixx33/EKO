@@ -1,98 +1,34 @@
-# 🌱 Eko — Transformando reciclaje en activos digitales
+# ♻️ EKO – Transforma residuos en créditos digitales verificables
 
-**Equipo:** Shadow Garden  
-**Categoría:** Social / Comunidad  
-**Hub:** Santa Cruz, Bolivia  
-**Hackathon:** Dev3pack Global 2026  
+![EKO Banner](https://via.placeholder.com/1200x400/22c55e/ffffff?text=EKO+-+Reciclar+para+ganar)  
+*(Reemplaza esta imagen por una real de la app)*
 
-> *"Eko: cada reciclaje se vuelve un crédito digital verificado con IA, con recompensa justa en Solana y total trazabilidad."*
+**EKO** convierte cada acto de reciclaje en un **crédito digital verificable (cNFT)** usando inteligencia artificial y blockchain de Solana. Empresas compran estos créditos ESG con total trazabilidad, y los recicladores reciben pagos directos sin intermediarios.
 
----
-
-## 📌 El Problema
-
-Cada año se generan 350 millones de toneladas de plástico. Menos del 9% se recicla realmente. Las empresas gastan miles de millones en créditos ESG sin trazabilidad, y 20 millones de recicladores viven en la informalidad.
+🌍 **Problema real**: 350 millones de toneladas de plástico al año, <9% se recicla. 20 millones de recicladores informales sin acceso a banca.  
+⚡ **Solución**: Escanea tu residuo con el móvil, una IA lo clasifica, se mintea un cNFT comprimido como prueba y el reciclador recibe criptoactivos al instante.
 
 ---
 
-## 💡 La Solución
+## 📽️ Demo en vivo
 
-Eko convierte cada acto de reciclaje en un **crédito digital verificable (cNFT)** usando IA y blockchain Solana. El usuario escanea un residuo con su teléfono, la IA clasifica el material, y se emite un cNFT comprimido como prueba del reciclaje. Las empresas compran estos créditos para sus reportes ESG, y los recicladores reciben micropagos directos.
+🔗 [Prueba la aplicación aquí](https://eko-demo.vercel.app) *(enlace de Vercel, actualiza con tu despliegue)*
 
----
-
-## 🧠 Arquitectura Técnica
-[Móvil] → (cámara + TensorFlow.js) → Clasifica material
-↓
-[ZK Proof simulada] → Hash del material + compromiso
-↓
-[Mobile Wallet Adapter] → Firma transacción
-↓
-[Anchor Program] → CPI a Metaplex Bubblegum → Mintea cNFT
-↓
-[Token-2022 TransferFee] → Pago automático al reciclador
-
-text
+📱 [Video de demostración en YouTube](https://youtu.be/tu_video_id) *(cambia por el video real de la app funcionando)*
 
 ---
 
-## 🔧 Stack Tecnológico
+## 🧠 ¿Por qué EKO es único?
 
-| Capa | Tecnología |
-|------|-----------| 
-| **Blockchain** | Solana (Devnet) |
-| **Smart Contract** | Anchor (Rust) |
-| **NFTs** | Metaplex Bubblegum (cNFTs con State Compression) |
-| **Frontend** | Next.js (PWA) + React |
-| **IA** | TensorFlow.js (clasificación de residuos) |
-| **Billetera** | Mobile Wallet Adapter (Phantom, Backpack) |
-| **Privacidad** | Zero-Knowledge Proofs (simuladas en MVP) |
+- **ZK Proofs simuladas** para privacidad del reciclador (prueba real en la hoja de ruta).  
+- **Token-2022 Transfer Fee**: cada pago automáticamente separa comisión para sostenibilidad.  
+- **cNFTs con State Compression**: crear millones de créditos cuesta centavos.  
+- **Enfoque en recicladores informales de Latinoamérica**, empezando por **Santa Cruz, Bolivia**.  
+- **Doble impacto**: inclusión financiera + reducción de plástico medible.
 
 ---
 
-## 📁 Estructura del Proyecto
-EKO/
-├── programs/eko-credit/ # Smart Contract Anchor (Rust)
-│ ├── src/lib.rs # Instrucción mint_credit
-│ └── Cargo.toml # Dependencias (Bubblegum, SPL Compression)
-├── components/
-│ └── Scanner.tsx # Componente de cámara y captura
-├── hooks/
-│ └── useMobileWallet.ts # Integración Mobile Wallet Adapter
-├── utils/
-│ ├── classifier.ts # Modelo IA con TensorFlow.js
-│ └── eko-program.ts # Cliente Anchor para el frontend
-└── README.md
-
-text
-
----
-
-## 🚀 Demo en Vivo
-
-![Demo](screenshots/demo.gif)
-
----
-
-## 🏆 ¿Por Qué Eko Gana?
-
-1. **Impacto social real:** Empodera a recicladores informales.
-2. **Economía circular programable:** Token Extensions con TransferFee.
-3. **Privacidad desde el diseño:** ZK Proofs.
-4. **Escalabilidad masiva:** cNFTs — 1 millón de créditos < $10 en fees.
-5. **Nacido en Bolivia, con visión global.**
-
----
-
-## 👥 Equipo
-
-**Shadow Garden** — Construyendo desde las sombras la luz de la economía circular.
-
----
-
-## 📄 Licencia
-
-MIT
+## 🏗️ Arquitectura Técnica
 
 
 
