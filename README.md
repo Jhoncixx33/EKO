@@ -93,12 +93,6 @@ text
 ## 📄 Licencia
 
 MIT
-✅ Prioridad #2: Generar Screenshots y Logo (15 min)
-Screenshot 1: Tomen una captura del Scanner.tsx abierto en VS Code mostrando el flujo de captura.
-
-Screenshot 2: Tomen una captura del lib.rs mostrando la instrucción mint_credit.
-
-Screenshot 3: Si logran ejecutar algo localmente, tomen captura de la consola o del navegador con un mensaje de éxito.
 
 
 
